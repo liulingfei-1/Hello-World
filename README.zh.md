@@ -1,10 +1,10 @@
-# Hello World Collection
+# Hello World 集合
 
-[English](README.md) | [中文](README.zh.md)
+[English](README.md) | 中文
 
-A curated set of minimal programs that print **"Hello, World"** in a variety of programming languages. This repository is useful for quick syntax lookups or verifying that a toolchain is configured correctly.
+一组经过精心整理的最小程序集合，演示如何在多种编程语言中输出 **"Hello, World"**。此仓库可用于快速查阅语法或验证工具链是否配置正确。
 
-## Supported languages
+## 支持的语言
 
 - **C** – `HelloWorld.c`
 - **C#** – `HelloWorld.cs`
@@ -14,8 +14,9 @@ A curated set of minimal programs that print **"Hello, World"** in a variety of 
 - **Visual Basic** – `HelloWorld.vb`
 - **TypeScript** – `Helloworld.ts`
 
-## Running the examples
-Each example is a single file that prints `Hello, World!` to standard output. Compile or interpret the file using the toolchain for that language:
+## 运行示例
+
+每个示例都是一个输出 `Hello, World!` 到标准输出的单文件程序。根据所使用的语言，使用其相应的工具链来编译或解释：
 
 ### C
 ```bash
@@ -52,11 +53,11 @@ vbnc HelloWorld.vb && mono HelloWorld.exe
 tsc Helloworld.ts && node Helloworld.js
 ```
 
-## Contributing
+## 贡献
 
-Feel free to submit pull requests that add new languages or improve existing examples.
+欢迎提交 Pull Request 以添加新语言或改进现有示例。
 
-## License
+## 许可证
 
-This project is licensed under the [MIT License](LICENSE).
+本项目使用 [MIT 许可证](LICENSE)。
 
