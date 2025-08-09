@@ -37,7 +37,7 @@ javac HelloWorld.java && java HelloWorld
 
 ### Python
 ```bash
-python HelloWorld.py
+python3 HelloWorld.py
 ```
 
 ### Visual Basic

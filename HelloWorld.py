@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print("Hello,world!")
+"""Simple Hello World script."""
+
+print("Hello, World!")
