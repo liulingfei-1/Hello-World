@@ -13,6 +13,9 @@
 - **Python** – `HelloWorld.py`
 - **Visual Basic** – `HelloWorld.vb`
 - **TypeScript** – `Helloworld.ts`
+- **Go** – `HelloWorld.go`
+- **Ruby** – `HelloWorld.rb`
+- **Rust** – `HelloWorld.rs`
 
 ## 运行示例
 
@@ -51,6 +54,21 @@ vbnc HelloWorld.vb && mono HelloWorld.exe
 ### TypeScript
 ```bash
 tsc Helloworld.ts && node Helloworld.js
+```
+
+### Go
+```bash
+go run HelloWorld.go
+```
+
+### Ruby
+```bash
+ruby HelloWorld.rb
+```
+
+### Rust
+```bash
+rustc HelloWorld.rs && ./HelloWorld
 ```
 
 ## 贡献
