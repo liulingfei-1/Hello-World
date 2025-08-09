@@ -13,6 +13,9 @@ A curated set of minimal programs that print **"Hello, World"** in a variety of 
 - **Python** – `HelloWorld.py`
 - **Visual Basic** – `HelloWorld.vb`
 - **TypeScript** – `Helloworld.ts`
+- **Go** – `HelloWorld.go`
+- **Ruby** – `HelloWorld.rb`
+- **Rust** – `HelloWorld.rs`
 
 ## Running the examples
 Each example is a single file that prints `Hello, World!` to standard output. Compile or interpret the file using the toolchain for that language:
@@ -50,6 +53,21 @@ vbnc HelloWorld.vb && mono HelloWorld.exe
 ### TypeScript
 ```bash
 tsc Helloworld.ts && node Helloworld.js
+```
+
+### Go
+```bash
+go run HelloWorld.go
+```
+
+### Ruby
+```bash
+ruby HelloWorld.rb
+```
+
+### Rust
+```bash
+rustc HelloWorld.rs && ./HelloWorld
 ```
 
 ## Contributing
