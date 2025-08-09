@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print("Hello,world!")
+# Prints "Hello, World!" to the console
+print("Hello, World!")
